@@ -16,6 +16,31 @@ footer {
     margin: 30px 0;
 }
 
+.img-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    
+    border: 1px solid gray;
+}
+
+.img-wrapper img {
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    
+    vertical-align: middle;
+}
+
+.img-wrapper img:hover {
+    -webkit-transform:scale(1.4); /* Safari and Chrome */
+    -moz-transform:scale(1.4); /* Firefox */
+    -ms-transform:scale(1.4); /* IE 9 */
+    -o-transform:scale(1.4); /* Opera */
+    transform:scale(1.4);
+}
+
 .top5 { margin-top:5px; }
 .top7 { margin-top:7px; }
 .top10 { margin-top:10px; }
